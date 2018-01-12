@@ -1,0 +1,158 @@
+/* Appel des polices*/
+
+@font-face {
+    font-family: 'gondola_sdregular';
+    src: url('Polices/Medieval/Gondola_SD-webfont.eot');
+    src: url('Polices/Medieval/Gondola_SD-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Medieval/Gondola_SD-webfont.woff2') format('woff2'),
+         url('Polices/Medieval/Gondola_SD-webfont.woff') format('woff'),
+         url('Polices/Medieval/Gondola_SD-webfont.ttf') format('truetype'),
+         url('Polices/Medieval/Gondola_SD-webfont.svg#gondola_sdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kingthings_calligraphica_2Rg';
+    src: url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.eot');
+    src: url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.woff2') format('woff2'),
+         url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.woff') format('woff'),
+         url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.ttf') format('truetype'),
+         url('Polices/Medieval/Kingthings_Calligraphica_2-webfont.svg#kingthings_calligraphica_2Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'im_fell_english_proregular';
+    src: url('Polices/Typewriter/FeENrm28C-webfont.eot');
+    src: url('Polices/Typewriter/FeENrm28C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Typewriter/FeENrm28C-webfont.woff2') format('woff2'),
+         url('Polices/Typewriter/FeENrm28C-webfont.woff') format('woff'),
+         url('Polices/Typewriter/FeENrm28C-webfont.ttf') format('truetype'),
+         url('Polices/Typewriter/FeENrm28C-webfont.svg#im_fell_english_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kingthings_trypewriter_2Rg';
+    src: url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.eot');
+    src: url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.woff2') format('woff2'),
+         url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.woff') format('woff'),
+         url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.ttf') format('truetype'),
+         url('Polices/Typewriter/Kingthings_Trypewriter_2-webfont.svg#kingthings_trypewriter_2Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typoslabserif-lightregular';
+    src: url('Polices/Typewriter/TypoSlabserif-Light-webfont.eot');
+    src: url('Polices/Typewriter/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Typewriter/TypoSlabserif-Light-webfont.woff2') format('woff2'),
+         url('Polices/Typewriter/TypoSlabserif-Light-webfont.woff') format('woff'),
+         url('Polices/Typewriter/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+         url('Polices/Typewriter/TypoSlabserif-Light-webfont.svg#typoslabserif-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
+	background-color: rgb(176 137 79);
+}
+
+article
+{
+	height: 30px;
+}
+
+footer
+{
+	font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
+}
+
+footer ul
+{
+    list-style-type: none;
+}
+
+footer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    color: rgba(134 44 34);
+    border-bottom: 2px solid rgba(134 44 34);
+}
+
+/* Style des petites annonces */
+
+#menu_annonces
+{
+	display: flex;
+}
+
+.annonce
+{
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid black;
+}
+
+/* Style du journal l'Echo du Couloir */
+
+#journal
+{
+      font-family: 'typoslabserif-lightregular', 'Courier New', Verdana, Arial, sans-serif;  
+      background-color: rgb(232 219 202);
+}
+
+#titre_journal
+{
+	font-family: 'im_fell_english_proregular', 'Courier New', Verdana, Arial, sans-serif;
+    text-align: center;
+	margin: 0 0 30px 0;
+	border: 3px solid black;
+}
+
+#titre_journal h1
+{
+    font-size: 3em;
+}
+
+#corps_journal
+{   
+	text-align: justify;
+	/*Texte sur plusieurs colonnes */
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+    columns: 3 100px;
+
+    /*Liseré de séparation */
+    -webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+
+    /*Espace de séparation */
+    -webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+}
+
+#corps_journal h2
+{
+    font-family: 'kingthings_trypewriter_2Rg', 'Courier New', Verdana, Arial, sans-serif;
+	text-align: center;
+    /* Le titre s'étalera sur toutes les colonnes */
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+}
