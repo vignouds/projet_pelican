@@ -60,34 +60,38 @@
     font-style: normal;
 }
 
-body
+/* Style général */
+
+header, footer
 {
-	font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
-	background-color: rgb(176 137 79);
+	background-color: grey;
 }
 
-article
+/* Style de la taverne */
+
+.taverne
 {
-	height: 30px;
+    font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
+    background-color: rgb(176 137 79);   
 }
 
-footer
+#vide
 {
-	font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
+    height: 30px;
 }
 
-footer ul
+.nav ul
 {
-    list-style-type: none;
+   list-style-type: none;
 }
 
-footer a
+.nav a
 {
     color: black;
     text-decoration: none;
 }
 
-footer a:hover
+.nav a:hover
 {
     color: rgba(134 44 34);
     border-bottom: 2px solid rgba(134 44 34);
@@ -105,6 +109,7 @@ footer a:hover
 	margin: 5px 5px 5px 5px;
 	padding: 5px 5px 5px 5px;
 	border: 2px solid black;
+    background-color: white;
 }
 
 /* Style du journal l'Echo du Couloir */

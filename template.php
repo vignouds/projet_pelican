@@ -10,11 +10,11 @@
     <body>
     	<div class="container">
 			<header class="row">
-          		
+          		Header
       		</header>
         	<?= $content ?>
         	<footer class="row">
-
+                Footer
     		</footer>
         </div>
     </body>
