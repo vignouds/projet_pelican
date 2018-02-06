@@ -64,7 +64,8 @@
 
 header, footer
 {
-	background-color: grey;
+	height: 30px;
+    background-color: grey;
 }
 
 /* Style de la taverne */
@@ -72,6 +73,7 @@ header, footer
 .taverne
 {
     font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
+    font-size: 1.2em;
     background-color: rgb(176 137 79);   
 }
 

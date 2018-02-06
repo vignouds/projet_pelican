@@ -18,10 +18,11 @@
 						<!-- Liste de choix : lire le journal, lire des livres (encyclopédie), regarder les annonces, parler avec..., regarder la partie de carte... -->
 						Alors, qu'allez vous faire maintenant, visiteur ?
 						<ul>
-							<li><a href="journal.php">Lire le journal </a></li>
-							<li><a href="annonces.php">Consulter les annonces </a></li>
-							<li><a href="bar.php">Commander une bière </a></li>
-							<li><a href="biblio.php">Feuilleter un livre </a></li>
+							<li><a href="journal.php">Lire le journal</a></li>
+							<li><a href="annonces.php">Consulter les annonces</a></li>
+							<li><a href="bar.php">Commander une bière</a></li>
+							<li><a href="biblio.php">Feuilleter un livre</a></li>
+							<li><a href="cave.php">Faire un tour à la cave</a></li>
 						</ul>
 					</div>
 				</div>
