@@ -6,4 +6,10 @@ $(function() {
 		$('#biliotheque').load('bibliotheque.html #murge', function(){});
 	});
 
+	$('#biere').click(function(){
+		$('#taverneDesc').fadeOut(2000, function(){
+			$('#taverneDesc').load('taverne.html #commandeBiere', function(){});
+			$('#taverneDesc').fadeIn(2000);
+		});
+	});
 });

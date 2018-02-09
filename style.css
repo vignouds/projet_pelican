@@ -77,6 +77,13 @@ header, footer
     background-color: rgb(176 137 79);   
 }
 
+#taverneDesc
+{
+    height: 300px;
+    /*Ne marche pas ?!*/
+
+}
+
 #vide
 {
     height: 30px;
