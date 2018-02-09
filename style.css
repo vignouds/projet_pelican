@@ -163,3 +163,18 @@ header, footer
     -moz-column-span: all;
     column-span: all;
 }
+
+/*Style de la bibliothèque*/
+
+#biliotheque
+{
+    background-color: grey;
+    min-height: 300px;
+    padding: 10px 15px 10px 15px;
+    text-align: justify;
+}
+
+#biliotheque h2
+{
+    text-align: center;
+}
