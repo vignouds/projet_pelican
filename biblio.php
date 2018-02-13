@@ -3,7 +3,7 @@
 <?php ob_start(); ?>
 
 			<section class="row">
-				<div>
+				<div id="corps_biblio">
 					<div>
 						<p>Bienvenue à la biliothèque.</p>
 						<p>Nous avons à votre disposition toute une série d'ouvrages plus passionants les uns que les autres !</p>
@@ -14,10 +14,6 @@
 					</div>
 					<div id="biliotheque">
 						
-					</div>
-
-					<div class="nav">
-					<p><a href="taverne.php">Retour à la taverne</a></p>
 					</div>
 				</div>
 			</section>

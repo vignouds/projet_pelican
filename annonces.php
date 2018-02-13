@@ -14,9 +14,7 @@
 						<p class="annonce">Jh ch jf pr pt sql dmtn. Krkp rstpm, php sty sql html. Rssp prppmf rpds tktk pls vtc. Ump cqfd, cgt ratp. Ppdm eurl, rstk. Xkklmtrifjsbffzpvosnvislqmjvvvvvvvvv. <br>
 						Rep asap svp.</p>
 					</div>
-					<div class="nav">
-						<p><a href="taverne.php">Retour à la taverne</a></p>
-					</div>
+					<?php include('retour_taverne.php'); ?>
 				</div>
 			</section>
 

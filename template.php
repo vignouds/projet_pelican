@@ -10,7 +10,14 @@
     <body>
     	<div class="container">
 			<header class="row">
-          		
+          		<nav>
+                    <ul>
+                        <li><a href="index.php">Acceuil</a></li>
+                        <li><a href="taverne.php">Taverne</a></li>
+                        <li><a href="biblio.php">Bibliothèque</a></li>
+                        <li><a href="connexion.php">Connexion</a></li>
+                    </ul>    
+                </nav>
       		</header>
         	<?= $content ?>
         	<footer class="row">

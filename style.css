@@ -62,10 +62,60 @@
 
 /* Style général */
 
-header, footer
+body
 {
-	height: 30px;
+    background-color: black;
+}
+header
+{
     background-color: grey;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: rgba(134 44 34);
+    border-bottom: 2px solid rgba(134 44 34);
+}
+
+footer
+{
+    height: 30px;
+    background-color: grey;
+}
+
+#index
+{
+   background-color: white;
+   padding: 10px 10px 10px 10px; 
+}
+
+#inscription
+{
+   background-color: white;
+   padding: 10px 10px 10px 10px; 
+}
+
+#connexion
+{
+   background-color: white;
+   padding: 10px 10px 10px 10px; 
 }
 
 /* Style de la taverne */
@@ -75,18 +125,12 @@ header, footer
     font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
     font-size: 1.2em;
     background-color: rgb(176 137 79);   
+    padding: 10px 10px 10px 10px;
 }
 
 #taverneDesc
 {
-    height: 300px;
-    /*Ne marche pas ?!*/
-
-}
-
-#vide
-{
-    height: 30px;
+    min-height: 400px;
 }
 
 .nav ul
@@ -127,6 +171,7 @@ header, footer
 {
       font-family: 'typoslabserif-lightregular', 'Courier New', Verdana, Arial, sans-serif;  
       background-color: rgb(232 219 202);
+      padding: 10px 10px 10px 10px;
 }
 
 #titre_journal
@@ -172,6 +217,12 @@ header, footer
 }
 
 /*Style de la bibliothèque*/
+
+#corps_biblio
+{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
 
 #biliotheque
 {

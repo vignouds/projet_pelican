@@ -8,9 +8,7 @@
 					<div>
 						<p>Bienvenue à la cave.</p>
 
-						<div class="nav">
-							<p><a href="taverne.php">Retour à la taverne</a></p>
-						</div>
+						<?php include('retour_taverne.php'); ?>
 					</div>
 				</div>
 			</section>
