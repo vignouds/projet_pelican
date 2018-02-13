@@ -69,6 +69,9 @@ body
 header
 {
     background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 nav ul
@@ -98,24 +101,30 @@ footer
 {
     height: 30px;
     background-color: grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #index
 {
    background-color: white;
    padding: 10px 10px 10px 10px; 
+   border-radius: 10px;
 }
 
 #inscription
 {
    background-color: white;
    padding: 10px 10px 10px 10px; 
+   border-radius: 10px;
 }
 
 #connexion
 {
    background-color: white;
    padding: 10px 10px 10px 10px; 
+   border-radius: 10px;
 }
 
 /* Style de la taverne */
@@ -126,6 +135,7 @@ footer
     font-size: 1.2em;
     background-color: rgb(176 137 79);   
     padding: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 
 #taverneDesc
@@ -222,6 +232,7 @@ footer
 {
     background-color: white;
     padding: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 
 #biliotheque
