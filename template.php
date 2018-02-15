@@ -7,20 +7,22 @@
     </head>
         
     <body>
-		<header>
-      		<nav>
-                <ul>
-                    <li><a href="index.php">Acceuil</a></li>
-                    <li><a href="taverne.php">Taverne</a></li>
-                    <li><a href="biblio.php">Bibliothèque</a></li>
-                    <li><a href="connexion.php">Connexion</a></li>
-                </ul>    
-            </nav>
-  		</header>
-    	<?= $content ?>
-    	<footer>
-            
-		</footer>
+    	<div id="container">
+			<header>
+	      		<nav>
+	                <ul>
+	                    <li><a href="index.php">Acceuil</a></li>
+	                    <li><a href="taverne.php">Taverne</a></li>
+	                    <li><a href="biblio.php">Bibliothèque</a></li>
+	                    <li><a href="connexion.php">Connexion</a></li>
+	                </ul>    
+	            </nav>
+	  		</header>
+	    	<?= $content ?>
+	    	<footer>
+	            
+			</footer>
+		</div>
 
         <script src="jquery-3.3.1.js"></script>
         <script src="script.js"></script>

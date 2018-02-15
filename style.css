@@ -67,6 +67,12 @@ body
     background-color: rgba(63,35,57,0.8);
 }
 
+#container
+{
+	width: 900px;
+	margin: auto;
+}
+
 header
 {
     background-color: grey;
