@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 				<div id="index">
 					<p>Bienvenue voyageur égaré.</p>
 					<p>Laissez-moi vous guider dans cet univers de divertissements. Plusieurs options s'offrent à vous.</p>

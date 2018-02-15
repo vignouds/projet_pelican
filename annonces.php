@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 				<div class="taverne">
 					<div id="menu_annonces">
 						<p class="annonce">Dépressif recherche bonne nouvelle désespéremment. <br>

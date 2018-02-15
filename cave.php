@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 
 				<div class="taverne">
 					<div>

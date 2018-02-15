@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 				<div id="inscription">
 					<p>Page d'inscription ici.</p>
 				</div>

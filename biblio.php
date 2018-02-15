@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 				<div id="corps_biblio">
 					<div>
 						<p>Bienvenue à la biliothèque.</p>

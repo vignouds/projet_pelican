@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-			<section class="row">
+			<section>
 				<div id="journal">
 					<div id="titre_journal">
 						<h1>L'Echo du Couloir</h1>
