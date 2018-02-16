@@ -2,16 +2,11 @@
 
 <?php ob_start(); ?>
 
-			<section>
+			<div class="corps" id="cave">
+				<p>Bienvenue à la cave.</p>
 
-				<div class="taverne">
-					<div>
-						<p>Bienvenue à la cave.</p>
-
-						<?php include('retour_taverne.php'); ?>
-					</div>
-				</div>
-			</section>
+				<?php include('retour_taverne.php'); ?>
+			</div>
 
 <?php $content = ob_get_clean(); ?>
 

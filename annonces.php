@@ -2,21 +2,34 @@
 
 <?php ob_start(); ?>
 
-			<section>
-				<div class="taverne">
-					<div id="menu_annonces">
-						<p class="annonce">Dépressif recherche bonne nouvelle désespéremment. <br>
-						Merci de répondre avant qu'il ne soit trop tard.</p>
-						<p class="annonce">Besoin de cash ? Une envie ? Un projet ? <br>
-						La société Mephisto and Co vous rachète votre âme à bon prix. <br>
-						Ne ratez pas cette opportunité ! <br>
-						Chaque jour, des milliers de personnes se laissent tenter par les offres alléchantes de Mephisto and Co. Pourquoi pas vous ? <br></p>
-						<p class="annonce">Jh ch jf pr pt sql dmtn. Krkp rstpm, php sty sql html. Rssp prppmf rpds tktk pls vtc. Ump cqfd, cgt ratp. Ppdm eurl, rstk. Xkklmtrifjsbffzpvosnvislqmjvvvvvvvvv. <br>
-						Rep asap svp.</p>
-					</div>
-					<?php include('retour_taverne.php'); ?>
+			<div class="corps" id="annonces">
+				<div id="menu_annonces">
+<?php 
+try
+{
+	$bdd = new PDO('mysql:host=localhost;dbname=projet_pelican;charset=utf8', 'root', '');
+}
+
+catch (Exception $e)
+{
+	die('Erreur : ' . $e->getMessage());
+}
+
+$reponse = $bdd->query('SELECT * FROM adverts');
+
+while($donnees = $reponse->fetch())
+{
+?>
+					<p class="annonce"><?php echo nl2br(htmlentities($donnees['content'])); ?></p>
+<?php
+}
+
+$reponse->closeCursor();
+
+?>
 				</div>
-			</section>
+				<?php include('retour_taverne.php'); ?>
+			</div>
 
 <?php $content = ob_get_clean(); ?>
 

@@ -64,12 +64,12 @@
 
 body
 {
-    background-color: rgba(63,35,57,0.8);
+    background-image: radial-gradient(circle at top left, white, rgba(63,35,57,0.9));
 }
 
 #container
 {
-	width: 900px;
+	max-width: 900px;
 	margin: auto;
 }
 
@@ -79,12 +79,14 @@ header
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+    padding: 2px 2px 2px 2px;
 }
 
 nav ul
 {
     list-style-type: none;
     display: flex;
+    font-variant: small-caps;
 }
 
 nav li
@@ -113,36 +115,35 @@ footer
     margin-bottom: 10px;
 }
 
+.corps
+{
+	padding: 10px 10px 10px 10px; 
+	border-radius: 10px;
+	min-height: 1200px
+}
+
 #index
 {
    background-color: white;
-   padding: 10px 10px 10px 10px; 
-   border-radius: 10px;
 }
 
 #inscription
 {
    background-color: white;
-   padding: 10px 10px 10px 10px; 
-   border-radius: 10px;
 }
 
 #connexion
 {
    background-color: white;
-   padding: 10px 10px 10px 10px; 
-   border-radius: 10px;
 }
 
 /* Style de la taverne */
 
-.taverne
+#taverne, #annonces, #cave
 {
     font-family: 'kingthings_calligraphica_2Rg', 'Comic Sans MS', 'Arial Black', Arial, Verdana, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: rgb(176 137 79);   
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
 }
 
 #taverneDesc
@@ -180,6 +181,7 @@ footer
 	padding: 5px 5px 5px 5px;
 	border: 2px solid black;
     background-color: white;
+    word-wrap: break-word;
 }
 
 /* Style du journal l'Echo du Couloir */
@@ -188,7 +190,6 @@ footer
 {
       font-family: 'typoslabserif-lightregular', 'Courier New', Verdana, Arial, sans-serif;  
       background-color: rgb(232 219 202);
-      padding: 10px 10px 10px 10px;
 }
 
 #titre_journal
@@ -238,8 +239,6 @@ footer
 #corps_biblio
 {
     background-color: white;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
 }
 
 #biliotheque

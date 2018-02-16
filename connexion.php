@@ -1,12 +1,14 @@
-<?php $title = 'Inscription'; ?>
+<?php $title = 'Connexion'; ?>
 
 <?php ob_start(); ?>
 
-			<section>
-				<div id="connexion">
-					<p>Page de connexion ici.</p>
-				</div>
-			</section>
+			<div class="corps" id="connexion">
+				<form method="post" action="connect.php">
+					<p>Pseudo <input type="text" name="pseudo"></p>
+					<p>Mot de passe <input type="password" name="pass"></p>
+					<input type="submit" value="Se connecter" />
+				</form>
+			</div>
 
 <?php $content = ob_get_clean(); ?>
 
