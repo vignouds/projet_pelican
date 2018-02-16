@@ -18,7 +18,6 @@ session_start();
 	                    <li><a href="index.php">Acceuil</a></li>
 	                    <li><a href="taverne.php">Taverne</a></li>
 	                    <li><a href="biblio.php">Bibliothèque</a></li>
-	                    <li><a href="connexion.php">Connexion</a></li>
 	                </ul>    
 	            </nav>
 	            <div>
@@ -29,7 +28,9 @@ if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 }
 else
 {
-	echo 'Bonjour invité';
+?>
+					Bonjour visiteur. <form method="post" action="connect.php">Pseudo <input type="text" name="pseudo"> Mot de passe <input type="password" name="pass"> <input type="submit" value="Se connecter" /></form>
+<?php
 }
 ?>	
 	            </div>
