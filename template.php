@@ -21,19 +21,22 @@ session_start();
 	                    <li><a href="connexion.php">Connexion</a></li>
 	                </ul>    
 	            </nav>
-	  		</header>
-	    	<?= $content ?>
-	    	<footer>
+	            <div>
 <?php
 if (isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
 {
-    echo 'Bonjour ' . $_SESSION['pseudo'];
+    echo 'Bonjour ' . $_SESSION['pseudo'] . '. <a href="logout.php">Se déconnecter</a>';
 }
 else
 {
 	echo 'Bonjour invité';
 }
-?>
+?>	
+	            </div>
+	  		</header>
+	    	<?= $content ?>
+	    	<footer>
+
 			</footer>
 		</div>
 
